@@ -2,6 +2,22 @@
 
 The first project for Xtern Bootcamp 2018 Session 3. This project uses vanilla Javascript/ES2015+.
 
+
+## Day 2 Homework
+
+* Give the function `changeHeading` a more accurate name.
+* Add a second filed ot the form.
+* Display the value of that field in the list.
+
+## Bonus Credit
+
+* Display the second field in a separte HTML element than the flick name.
+* See if you can then style it differently.
+
+## Super Mega Bonus Credit
+
+* Use more than one function. (Break `cxhangeHeading` into multiple functions, as appropriate.)
+
 ## Day 1 Homework
 
 * Make the button change the text of the heading (the `<h1>`).

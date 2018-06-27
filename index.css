@@ -1,5 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Petit+Formal+Script|Shrikhand');
 
 body {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
+    color: darkgreen;
+}
+
+.flickTitle {
+    font-family: 'Shrikhand', sans-serif;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+.flickYear {
+    font-family: 'Petit Formal Script', sans-serif;
+    font-style: italic;
+    color: crimson;
 }

@@ -51,11 +51,14 @@
 
 const app = new App()*/
 
-const button = document.querySelector('button')
+const form = document.querySelector('form#flickForm')
 
-const changeHeading = function() {
-    const heading = document.querySelector('h1.fancy')
-    heading.textContent = 'We\'ve got to clean it up!'
+const changeHeading = function(ev) {
+    ev.preventDefault()
+    ev.target
+
+    const heading = document.querySelector('.fancy')
+    heading.textContent = form.flickName.value
 }
 
-button.addEventListener('click', changeHeading)
+form.addEventListener('submit', changeHeading)

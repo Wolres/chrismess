@@ -1,4 +1,4 @@
-/*class App {
+class App {
         constructor() {
         const form = document.querySelector('form#flickForm')
         form.addEventListener('submit', (ev) => {
@@ -49,16 +49,4 @@
       }
     }
 
-const app = new App()*/
-
-const form = document.querySelector('form#flickForm')
-
-const changeHeading = function(ev) {
-    ev.preventDefault()
-    ev.target
-
-    const heading = document.querySelector('.fancy')
-    heading.textContent = form.flickName.value
-}
-
-form.addEventListener('submit', changeHeading)
+const app = new App()

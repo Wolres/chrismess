@@ -8,34 +8,40 @@
   <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
 </head>
   <body>
-    <h1>Chrismess</h1>
+    <header>
+        <h1>Chrismess</h1>
+        <h2>a whole mess of Chrisses</h2>
+        <img src="decoration.png" alt="">
+    </header>
 
     <form id="flickForm">
+      <div>
         <input 
-          type="text"
-          id="flickName"
-          placeholder="Enter a flick"
-          autofocus
-        >
-        <br>
-        <input
-          type="text"
-          id="flickRel"
-          placeholder="Enter the release year"
-        >
-        <button type="submit">Update List</button>
+        type="text"
+        id="flickName"
+        placeholder="Enter a flick"
+        autofocus
+      >
+      <br>
+      <input
+        class="smaller"
+        type="text"
+        id="chrisName"
+        placeholder="Enter the release year"
+      >
+      <button type="submit">Update List</button>
+    </div>
     </form>
 
-    <h1 class="fancy">A whole mess o' Chrisses</h1>
+    <!--<h1 class="fancy">A whole mess o' Chrisses</h1>
   
     <p class="fancy">Change me.</p>
   
-    <button>Change Heading</button>
+    <button>Change Heading</button>-->
 
     <ul id="flicks">
 
     </ul>
-
   
     <script src="index.js"></script>
   </body>

@@ -54,8 +54,8 @@ const app = new App()*/
 const button = document.querySelector('button')
 
 const changeHeading = function() {
-    const heading = document.querySelector('h1')
-    heading.textContent = 'No x-mas here!'
+    const heading = document.querySelector('h1.fancy')
+    heading.textContent = 'We\'ve got to clean it up!'
 }
 
 button.addEventListener('click', changeHeading)

@@ -1,4 +1,4 @@
-class App {
+/*class App {
         constructor() {
         const form = document.querySelector('form#flickForm')
         form.addEventListener('submit', (ev) => {
@@ -49,4 +49,6 @@ class App {
       }
     }
 
-const app = new App()
+const app = new App()*/
+
+const button = document.querySelector('button')

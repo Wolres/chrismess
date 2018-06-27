@@ -6,6 +6,21 @@ body {
     margin: 0;
 }
 
+.center {
+    margin-left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .name {
     font-family: 'Shrikhand', sans-serif;
     font-weight: bold;
@@ -28,12 +43,12 @@ header {
     background-size: cover;
     height: 10vw;
     border: solid white .5rem;
-    margin-bottom: 20vw;
+    margin-bottom: 10vw; /*was 20vw*/
 }
 
 h1 {
     font-family: Parisienne, cursive;
-    font-size: 15vw;
+    font-size: 10vw; /*was 15vw*/
     margin: 0;
     color: white;
     text-align: center;

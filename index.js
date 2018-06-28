@@ -39,7 +39,8 @@
         return item
     }
 
-    removeFlick(flick, item) {
+    removeFlick(flick) {
+        const item = ev.target.closest('.flick')
         this.list.removeChild(item)
 
         const i = this.flicks.indexOf(flick)

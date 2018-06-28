@@ -4,7 +4,7 @@ The first project for Xtern Bootcamp 2018 Session 3. This project uses vanilla J
 
 ## Day 3 Homework
 
-* In addition to building a list item and adding it to the DOM (as we are now), also store each spell in an array.
+* In addition to building a list item and adding it to the DOM (as we are now), also store each flick in an array.
 
 ### Bonus Credit
 

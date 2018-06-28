@@ -1,5 +1,6 @@
-class App {
+    class App {
         constructor() {
+        this.flicks=[]
         const form = document.querySelector('form#flickForm')
         form.addEventListener('submit', (ev) => {
             ev.preventDefault()
@@ -30,7 +31,7 @@ class App {
     
         return item
     }
-    
+
     handleSubmit (ev) {
         const f = ev.target
     
@@ -38,6 +39,8 @@ class App {
             name: f.flickName.value,
             chris: f.chrisName.value,
         }
+
+        this.flicks.push(flick)
     
         const item = this.renderItem(flick)
     

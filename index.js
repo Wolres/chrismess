@@ -28,6 +28,10 @@
             const span = this.renderProperty(propertyName, flick[propertyName])
             item.appendChild(span)
         })
+
+        const deleteButton = document.createElement('button')
+        deleteButton.textContent = 'Remove'
+        item.appendChild(deleteButton)
     
         return item
     }
